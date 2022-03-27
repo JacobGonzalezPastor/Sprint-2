@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Button, Card, Image } from 'semantic-ui-react'
 import { Styledcard } from '../style/Cardstyle'
 const Cardtamales = ({ id, imagen, sabor, precio }) => {
@@ -20,9 +21,11 @@ const Cardtamales = ({ id, imagen, sabor, precio }) => {
                     </Card.Content>
                     <Card.Content extra>
                         <div className='ui two buttons'>
+                            <Link to="/Detalles">
                             <Button basic color='green'>
                                 Comprar
                             </Button>
+                            </Link>
                         </div>
                     </Card.Content>
                 </Card>
