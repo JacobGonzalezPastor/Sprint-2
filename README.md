@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+### `importante`
+poner la web en modo responsive o acomodar el tamaño de la ventana
 ## Available Scripts
 
 In the project directory, you can run:
